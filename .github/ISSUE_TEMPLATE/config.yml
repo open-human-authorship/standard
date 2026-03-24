@@ -1,0 +1,13 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Read the OHAS README
+    url: https://github.com/open-human-authorship/standard/blob/main/README.md
+    about: Start here for project overview and repository structure.
+
+  - name: Read the OHAS core standard
+    url: https://github.com/open-human-authorship/standard/blob/main/OHAS_STANDARD.md
+    about: Review the main draft specification before proposing normative changes.
+
+  - name: Contribution guidelines
+    url: https://github.com/open-human-authorship/standard/blob/main/CONTRIBUTING.md
+    about: Check contribution expectations before opening a proposal.
