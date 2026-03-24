@@ -1,0 +1,71 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/ohas/schemas/manifest.schema.json",
+  "title": "OHAS Manifest",
+  "type": "object",
+  "required": [
+    "standard",
+    "version",
+    "manifest_id",
+    "work_id",
+    "title",
+    "authors",
+    "scope",
+    "assurance_level",
+    "policy_profile",
+    "issued_at",
+    "final_content_hash",
+    "status"
+  ],
+  "properties": {
+    "standard": {
+      "type": "string",
+      "const": "OHAS"
+    },
+    "version": {
+      "type": "string"
+    },
+    "manifest_id": {
+      "type": "string"
+    },
+    "work_id": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "authors": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "scope": {
+      "type": "object"
+    },
+    "assurance_level": {
+      "type": "string"
+    },
+    "policy_profile": {
+      "type": "string"
+    },
+    "issuer": {
+      "type": "object"
+    },
+    "issued_at": {
+      "type": "string"
+    },
+    "final_content_hash": {
+      "type": "object"
+    },
+    "exceptions": {
+      "type": "array"
+    },
+    "evidence_bundle": {
+      "type": "array"
+    },
+    "status": {
+      "type": "string"
+    }
+  }
+}

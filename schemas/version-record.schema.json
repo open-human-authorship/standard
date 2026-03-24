@@ -1,0 +1,55 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/ohas/schemas/version-record.schema.json",
+  "title": "OHAS Version Record",
+  "type": "object",
+  "required": [
+    "record_type",
+    "standard_version",
+    "work_id",
+    "version_id",
+    "timestamp",
+    "content_hash"
+  ],
+  "properties": {
+    "record_type": {
+      "type": "string"
+    },
+    "standard_version": {
+      "type": "string"
+    },
+    "work_id": {
+      "type": "string"
+    },
+    "version_id": {
+      "type": "string"
+    },
+    "parent_version_id": {
+      "type": "string"
+    },
+    "timestamp": {
+      "type": "string"
+    },
+    "author_id": {
+      "type": "string"
+    },
+    "device_id": {
+      "type": "string"
+    },
+    "toolchain": {
+      "type": "object"
+    },
+    "content_hash": {
+      "type": "object"
+    },
+    "policy_state": {
+      "type": "object"
+    },
+    "evidence_refs": {
+      "type": "array"
+    },
+    "signature": {
+      "type": "object"
+    }
+  }
+}

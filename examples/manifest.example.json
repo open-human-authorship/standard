@@ -1,0 +1,40 @@
+{
+  "standard": "OHAS",
+  "version": "0.1.0-draft",
+  "manifest_id": "ohas:manifest:demo-issuer:2026:000001",
+  "work_id": "ohas:work:demo-issuer:2026:000001",
+  "title": "Example Human-Authored Work",
+  "authors": [
+    {
+      "id": "author:001",
+      "name": "Example Author"
+    }
+  ],
+  "scope": {
+    "coverage": "full_text",
+    "edition": "1.0"
+  },
+  "assurance_level": "D2",
+  "policy_profile": "P1",
+  "issuer": {
+    "id": "issuer:demo-foundation",
+    "name": "Demo Foundation"
+  },
+  "issued_at": "2026-03-23T10:00:00Z",
+  "final_content_hash": {
+    "algorithm": "sha256",
+    "value": "3f4a6a6d2a3d8e765f3cf8e66a8ce0e8a6ed36fb4f4d1f716fe9a6cf9b0db001"
+  },
+  "exceptions": [],
+  "evidence_bundle": [
+    {
+      "type": "version_log",
+      "ref": "evidence/version-log.json"
+    },
+    {
+      "type": "author_declaration",
+      "ref": "evidence/author-declaration.pdf"
+    }
+  ],
+  "status": "valid"
+}

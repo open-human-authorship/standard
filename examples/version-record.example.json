@@ -1,0 +1,35 @@
+{
+  "record_type": "ohas_version_record",
+  "standard_version": "0.1.0-draft",
+  "work_id": "ohas:work:demo-issuer:2026:000001",
+  "version_id": "v0007",
+  "parent_version_id": "v0006",
+  "timestamp": "2026-03-23T09:35:18Z",
+  "author_id": "author:001",
+  "device_id": "device:writer-station-01",
+  "toolchain": {
+    "editor": "OHAS Writer",
+    "editor_version": "0.1.0",
+    "os": "Linux",
+    "mode": "strict"
+  },
+  "content_hash": {
+    "algorithm": "sha256",
+    "value": "d48e3a3fd4f2a4bb2456f50cb2879b8cf2d3ec1e1f124f2ab91dbe618f01aa22"
+  },
+  "policy_state": {
+    "assurance_level": "D2",
+    "policy_profile": "P1",
+    "network_mode": "restricted",
+    "clipboard_mode": "logged"
+  },
+  "evidence_refs": [
+    "session/2026-03-23/session-04.log",
+    "snapshots/v0007.md"
+  ],
+  "signature": {
+    "algorithm": "ed25519",
+    "key_id": "key:demo-issuer-01",
+    "value": "BASE64_SIGNATURE_PLACEHOLDER"
+  }
+}
